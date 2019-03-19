@@ -1,0 +1,24 @@
+{
+  "name": "kids-phone-to-sms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/dotenv": "^6.1.0",
+    "@types/node": "^11.11.4",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.426.0",
+    "dotenv": "^7.0.0",
+    "google-auth-library": "^3.1.1",
+    "googleapis": "^38.0.0"
+  }
+}
